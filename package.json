@@ -1,0 +1,20 @@
+{
+  "name": "anyhuman",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Post any task. A human shows up.",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "dev:web": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "start": "node server/index.js",
+    "preview": "npm run build && npm start"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+web/node_modules
+web/dist
+data
+.git
+.github
+*.log
+.env
+.env.*
+README.md
